@@ -63,7 +63,37 @@ Since 1800 is leap year. Day lies on 12 September.
  */
 public class DayOfTheProgrammer {
 
-    public static void main(String[] args){
+    // Complete the dayOfProgrammer function below.
+    static String dayOfProgrammer(int year) {
+        boolean isLeapYear = false;
 
+        if (year == 1918)
+            return "26.09." + year;
+
+        // mean it's the julian calendar
+        if (year < 1919)
+            isLeapYear = isJulianLeapYear(year);
+
+
+        if (!isLeapYear)
+            isLeapYear = isGregorianLeapYear(year);
+
+
+        if (isLeapYear)
+            return "12.09." + year;
+        else return "13.09." + year;
+    }
+
+    private static boolean isGregorianLeapYear(int year) {
+        return ((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0);
+    }
+
+    private static boolean isJulianLeapYear(int year) {
+        return (year % 4 == 0);
+    }
+
+    public static void main(String[] args) {
+
+        System.out.println(dayOfProgrammer(1800));
     }
 }
