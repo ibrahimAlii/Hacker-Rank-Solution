@@ -1,8 +1,6 @@
 package algorithms;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
+import java.util.*;
 
 /*
 John works at a clothing store. He has a large pile of socks that he must pair by color for sale. Given an array of integers representing the color of each sock, determine how many pairs of socks with matching colors there are.
@@ -46,26 +44,16 @@ public class SockMerchant {
 
     // Complete the sockMerchant function below.
     static int sockMerchant(int n, int[] ar) {
-        HashMap<Integer, Integer> pairs = new HashMap<>();
         int sumOfPairs = 0;
-        int initVal = 0;
 
-        for (int i = 0; i < ar.length; i++) {
-//            if (pairs.get(ar[i]) == null || pairs.get(i) < 1)
-//                pairs.add(ar[i], 0);
-            if (pairs.get(ar[i]) == null)
-                initVal = 0;
-            else initVal = pairs.get(ar[i]);
-            pairs.put(ar[i], initVal + 1);
-            //pairs.add(ar[i], (pairs.get(i) + 1));
-        }
+        // Sorting array [colors]
+        Arrays.sort(ar);
 
-        for (int i = 0; i < ar.length; i++) {
-            if (pairs.get(ar[i]) >= 2) {
-                sumOfPairs += pairs.get(ar[i]) / 2;
 
-                if (!isEven(pairs.get(ar[i])))
-                    sumOfPairs--;
+        for (int i = 0; i < ar.length - 1; i++) {
+            if (ar[i] == ar[i + 1]){
+                i++;
+                sumOfPairs++;
             }
 
         }
@@ -73,9 +61,6 @@ public class SockMerchant {
         return sumOfPairs;
     }
 
-    static boolean isEven(int n ){
-        return n % 2 == 0;
-    }
 
     public static void main(String[] args) {
 
