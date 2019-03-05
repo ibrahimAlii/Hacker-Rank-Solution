@@ -136,7 +136,7 @@ public class ClimbingLeaderBoard {
 
 
     static int[] climbingLeaderboard(int[] scores, int[] alice) {
-        int[] aliceRankes = new int[alice.length];
+        int[] aliceRanks = new int[alice.length];
         int lastScore = 0;
         int rank = 1;
         int aliceIndex = alice.length - 1, scoreIndex = 0;
@@ -155,12 +155,12 @@ public class ClimbingLeaderBoard {
                     break;
 
             }
-            aliceRankes[aliceIndex] = rank;
+            aliceRanks[aliceIndex] = rank;
             aliceIndex--;
         }
 
 
-        return aliceRankes;
+        return aliceRanks;
     }
 
     public static void main(String[] main) {
