@@ -73,8 +73,8 @@ public class SequenceEquation {
         //
         for (int i = 0; i < p.length; i++) {
 
-           // result[i] = p[p[p[p[i] - 1] - 1] - 1];
-            result[p[p[p[i]-1]-1]-1] = p[i];
+            // result[i] = p[p[p[p[i] - 1] - 1] - 1];
+            result[p[p[p[i] - 1] - 1] - 1] = p[i];
         }
 
         return result;
