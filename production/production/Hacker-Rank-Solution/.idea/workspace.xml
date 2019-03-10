@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="185daa84-ce5d-46af-8e62-f7832fff5a92" name="Default Changelist" comment="Add solutions">
-      <change afterPath="$PROJECT_DIR$/src/algorithms/AppendAndDelete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/production/Hacker-Rank-Solution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/production/production/Hacker-Rank-Solution/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="185daa84-ce5d-46af-8e62-f7832fff5a92" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/algorithms/LibraryFine.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,24 +12,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithms/AngryProfessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1173">
-              <caret line="69" column="47" selection-start-line="69" selection-start-column="47" selection-end-line="69" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithms/BeautifulDaysAtTheMovies.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="54" column="37" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithms/ViralAdvertising.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -61,7 +42,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithms/SequenceEquation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="661">
+            <state relative-caret-position="1156">
               <caret line="68" column="46" selection-start-line="68" selection-start-column="46" selection-end-line="68" selection-end-column="46" />
               <folding>
                 <element signature="method#permutationEquation#0;class#SequenceEquation#0" />
@@ -73,7 +54,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithms/JumpingOnTheCloudsRevisited.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
+            <state relative-caret-position="1224">
               <caret line="72" selection-start-line="72" selection-end-line="72" />
             </state>
           </provider>
@@ -82,7 +63,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithms/FindDigits.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
+            <state relative-caret-position="748">
               <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
             </state>
           </provider>
@@ -91,7 +72,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithms/ExtraLongFactorials.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="323">
               <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
               <folding>
                 <element signature="e#132#133#0" expanded="true" />
@@ -101,11 +82,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithms/AppendAndDelete.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="84" column="53" selection-start-line="84" selection-start-column="53" selection-end-line="84" selection-end-column="53" />
+            <state relative-caret-position="1275">
+              <caret line="75" column="59" selection-start-line="75" selection-start-column="59" selection-end-line="75" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/algorithms/SherlockAndSquares.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="511">
+              <caret line="54" column="34" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/algorithms/LibraryFine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="766">
+              <caret line="67" column="63" selection-start-line="67" selection-start-column="63" selection-end-line="67" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -152,6 +151,8 @@
         <option value="$PROJECT_DIR$/src/algorithms/FindDigits.java" />
         <option value="$PROJECT_DIR$/src/algorithms/ExtraLongFactorials.java" />
         <option value="$PROJECT_DIR$/src/algorithms/AppendAndDelete.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/SherlockAndSquares.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/LibraryFine.java" />
       </list>
     </option>
   </component>
@@ -167,6 +168,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Hacker-Rank-Solution" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Hacker-Rank-Solution" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -193,24 +206,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Hacker-Rank-Solution" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Hacker-Rank-Solution" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551905337349" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551995025089" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -231,15 +232,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ExtraLongFactorials">
+  <component name="RunManager" selected="Application.LibraryFine">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CircularArrayRotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.CircularArrayRotation" />
+    <configuration name="AppendAndDelete" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.AppendAndDelete" />
       <module name="Hacker-Rank-Solution" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -280,8 +281,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JumpingOnTheCloudsRevisited" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.JumpingOnTheCloudsRevisited" />
+    <configuration name="LibraryFine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.LibraryFine" />
       <module name="Hacker-Rank-Solution" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -294,8 +295,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SequenceEquation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.SequenceEquation" />
+    <configuration name="SherlockAndSquares" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.SherlockAndSquares" />
       <module name="Hacker-Rank-Solution" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -339,19 +340,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CircularArrayRotation" />
-      <item itemvalue="Application.SequenceEquation" />
-      <item itemvalue="Application.JumpingOnTheCloudsRevisited" />
       <item itemvalue="Application.FindDigits" />
       <item itemvalue="Application.ExtraLongFactorials" />
+      <item itemvalue="Application.AppendAndDelete" />
+      <item itemvalue="Application.SherlockAndSquares" />
+      <item itemvalue="Application.LibraryFine" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LibraryFine" />
+        <item itemvalue="Application.SherlockAndSquares" />
+        <item itemvalue="Application.AppendAndDelete" />
         <item itemvalue="Application.ExtraLongFactorials" />
         <item itemvalue="Application.FindDigits" />
-        <item itemvalue="Application.JumpingOnTheCloudsRevisited" />
-        <item itemvalue="Application.SequenceEquation" />
-        <item itemvalue="Application.CircularArrayRotation" />
       </list>
     </recent_temporary>
   </component>
@@ -370,7 +371,8 @@
       <workItem from="1551018557371" duration="600000" />
       <workItem from="1551215714454" duration="49833000" />
       <workItem from="1551734444874" duration="20819000" />
-      <workItem from="1551847931404" duration="6921000" />
+      <workItem from="1551847931404" duration="15259000" />
+      <workItem from="1551994270780" duration="767000" />
     </task>
     <task id="LOCAL-00001" summary="Add solutions">
       <created>1550700419211</created>
@@ -414,11 +416,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551853258494</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add solutions">
+      <created>1551994316431</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1551994316432</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88692000" />
+    <option name="totallyTimeSpent" value="97797000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -433,7 +442,7 @@
     <frame x="-8" y="-8" width="1696" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1589242" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16075794" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -442,7 +451,7 @@
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49938875" visible="true" weight="0.3290461" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49938875" weight="0.3290461" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39978564" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -520,6 +529,18 @@
           <line>58</line>
           <properties />
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/AppendAndDelete.java</url>
+          <line>73</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/SherlockAndSquares.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/algorithms/BeautifulDaysAtTheMovies.java</url>
@@ -710,6 +731,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/math/BigInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="1297" column="22" selection-start-line="1297" selection-start-column="22" selection-end-line="1297" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/BeautifulDaysAtTheMovies.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
@@ -740,7 +768,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/SequenceEquation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="661">
+        <state relative-caret-position="1156">
           <caret line="68" column="46" selection-start-line="68" selection-start-column="46" selection-end-line="68" selection-end-column="46" />
           <folding>
             <element signature="method#permutationEquation#0;class#SequenceEquation#0" />
@@ -750,28 +778,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/JumpingOnTheCloudsRevisited.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
+        <state relative-caret-position="1224">
           <caret line="72" selection-start-line="72" selection-end-line="72" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/FindDigits.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
+        <state relative-caret-position="748">
           <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/math/BigInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="1297" column="22" selection-start-line="1297" selection-start-column="22" selection-end-line="1297" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/ExtraLongFactorials.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="323">
           <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
           <folding>
             <element signature="e#132#133#0" expanded="true" />
@@ -782,8 +803,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/AppendAndDelete.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="84" column="53" selection-start-line="84" selection-start-column="53" selection-end-line="84" selection-end-column="53" />
+        <state relative-caret-position="1275">
+          <caret line="75" column="59" selection-start-line="75" selection-start-column="59" selection-end-line="75" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/SherlockAndSquares.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="54" column="34" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/LibraryFine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="766">
+          <caret line="67" column="63" selection-start-line="67" selection-start-column="63" selection-end-line="67" selection-end-column="63" />
         </state>
       </provider>
     </entry>
