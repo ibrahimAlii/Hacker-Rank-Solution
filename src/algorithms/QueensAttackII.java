@@ -122,14 +122,29 @@ public class QueensAttackII {
                 else {
                     // Check if on the same diagonal
                     if (Math.abs(r_q - row) == Math.abs(c_q - column)) {
-                        if (column == n || row == n) {
-                            total--;
+                        // if top
+                        int count = 0;
+                        if (row > r_q) {
 
-                        } else if (row > r_q) {
+                            // if top right
+                            if (column > c_q) {
+                                //total -= ((n - column) - ((n - row) < (n - column) ? n - row : 0));
+                                for (int j = column; j <= n; j++) {
+                                    count++;
+                                    if (row + count == n || row + column == n)
+                                        break;
+                                }
+                                total -= count;
+                            } // If top left
+                            else {
+                                total -= ((column) - ((n - row) < (column) ? column - (n - row) : 0));
+                            }
 
-                            total -= Math.abs(n - column - (n - row < n - column ? n - row : 0));
+                        }
+                        // if bottom
+                        else {
 
-                        } else total -= Math.abs(n - +1 - row);
+                        }
                     }
                 }
             }
@@ -145,7 +160,7 @@ public class QueensAttackII {
         int x = 4, y = 3;
         int n = 5;
 
-        System.out.println((int)Math.sqrt(8));
+        System.out.println((int) Math.sqrt(8));
 
         //System.out.println(queensAttack(8, 0, 4, 3, new int[][]{}));
         System.out.println(queensAttack(5, 4, 4, 3, new int[][]{
