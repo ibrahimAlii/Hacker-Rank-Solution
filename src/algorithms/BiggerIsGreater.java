@@ -76,22 +76,98 @@ abdc
 fedcbabdc
  */
 
+import java.io.*;
+import java.util.Arrays;
+
 public class BiggerIsGreater {
 
-    // Complete the biggerIsGreater function below.
     static String biggerIsGreater(String w) {
+        char[] arr = w.toCharArray();
+        int i = arr.length - 1; // finding p --> i
 
-        w.chars().
-        for (int i = 0; i < w.length(); i++) {
-
+        while (i > 0 && arr[i - 1] >= arr[i]) {
+            i--;
         }
+        if (i <= 0) {
+            return "no answer";
+        }
+        int j = arr.length - 1;
+        while (arr[j] <= arr[i - 1]) {
+            j--;
+        }
+        char temp = arr[i - 1];
+        arr[i - 1] = arr[j];
+        arr[j] = temp;
 
-        return "";
+        j = arr.length - 1;
+        while (i < j) {
+            char tem = arr[i];
+            arr[i] = arr[j];
+            arr[j] = tem;
+            j--;
+            i++;
+        }
+        String ret = new String(arr);
+        return ret;
     }
 
+    // Complete the biggerIsGreater function below.
+//    static String biggerIsGreater(String w) {
+//        char[] arr = w.toCharArray();
+//        boolean swappedSuccess = false;
+//        int index = 0;
+//        for (int i = w.length() - 1; i > 0; i--) {
+//            for (int j = i; j >= 0; j--) {
+//                if (w.charAt(i) > w.charAt(j)) {
+//                    char d = w.charAt(j);
+//                    arr[j] = arr[i];
+//                    arr[i] = d;
+//                    index = j;
+//                    swappedSuccess = true;
+//                    break;
+//                }
+//            }
+//            if (swappedSuccess)
+//                break;
+//        }
+//        if (!swappedSuccess)
+//            return "no answer";
+//        Arrays.sort(arr, index + 1, w.length());
+//        return new String(arr);
+//    }
 
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
+
+//        System.out.println(biggerIsGreater("bb"));
+//        System.out.println(biggerIsGreater("dcba"));
+//        System.out.println(biggerIsGreater("dcbb"));
+//        System.out.println(biggerIsGreater("abdc"));
+//        System.out.println(biggerIsGreater("abcd"));
+//        System.out.println(biggerIsGreater("fedcbabcd"));
+//        System.out.println(biggerIsGreater("zedawdvyyfumwpupuinbdbfndyehircmylbaowuptgmw"));
+//        System.out.println(biggerIsGreater("zyyxwwtrrnmlggfeb"));
+        //System.out.println(biggerIsGreater("yriecnu")); // yriecun    yricuen
+
+
+        BufferedReader br_case = null;
+        BufferedReader br_result = null;
+        try {
+            br_case = new BufferedReader(new FileReader(new File("C:\\Users\\Ibrahim\\Desktop\\projects\\Hacker-Rank-Solution\\src\\algorithms\\test_case_for_bigger_is_greater.txt")));
+            br_result = new BufferedReader(new FileReader("C:\\Users\\Ibrahim\\Desktop\\projects\\Hacker-Rank-Solution\\src\\algorithms\\result_for_bigger_is_greater.txt"));
+
+            String st, result;
+            while ((st = br_case.readLine()) != null && (result = br_result.readLine()) != null)
+                if (!biggerIsGreater(st).equals(result))
+                    System.out.println(biggerIsGreater(st) + "  ||  " + st + "  ||  " + result);
+
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
 
     }
 }
+
