@@ -48,16 +48,17 @@ The sample input corresponds to the figure described in problem statement.
 public class _3DSurfaceArea {
 
     static int surfaceArea(int[][] A) {
-        int area = 2 * A.length * A[0].length - 1;
-        for (int i = 1; i <= A.length - 1; i++) {
-            for (int j = 1; j <= A[0].length - 1; j++) {
-                area += Math.max(0, A[i][j] - A[i - 1][j]);
-                area += Math.max(0, A[i][j] - A[i + 1][j]);
-                area += Math.max(0, A[i][j] - A[i][j - 1]);
-                area += Math.max(0, A[i][j] - A[i][j + 1]);
+        int tvolume = 0;
+        for (int i = 0; i < A.length; i++) {
+            for (int j = 0; j < A[0].length; j++) {
+                tvolume += (A[i][j] * 4) + 2;
+                if (j >= 1)
+                    tvolume -= Math.min(A[i][j - 1], A[i][j]) * 2;
+                if (i >= 1)
+                    tvolume -= Math.min(A[i - 1][j], A[i][j]) * 2;
             }
         }
-        return area;
+        return tvolume;
     }
 
 
@@ -69,5 +70,6 @@ public class _3DSurfaceArea {
                 {1, 2, 4}
         }));
     }
+
 }
 
