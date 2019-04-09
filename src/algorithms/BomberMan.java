@@ -150,7 +150,6 @@ public class BomberMan {
                         if (k + 1 < grid[j].length()) {
                             if (grid[j].charAt(k + 1) != 'x') {
                                 grid[j] = replaceChar(grid[j], '.', k + 1);
-
                                 futureRightBomb = k + 1;
                                 futureBottomBombs.remove(j + futureRightBomb);
                             }
@@ -158,7 +157,6 @@ public class BomberMan {
                         if (j + 1 < grid.length) {
                             if (grid[j + 1].charAt(k) != 'x') {
                                 grid[j + 1] = replaceChar(grid[j + 1], '.', k);
-
                                 futureBottomBombs.put(j + 1 + k, k);
                             }
                         }
