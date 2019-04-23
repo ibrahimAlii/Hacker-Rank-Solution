@@ -1,77 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="185daa84-ce5d-46af-8e62-f7832fff5a92" name="Default Changelist" comment="Add solutions">
-      <change afterPath="$PROJECT_DIR$/src/algorithms/dynamicProgramming/IntervalSelection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/dynamicProgramming/StringReduction.java" afterDir="false" />
+    <list default="true" id="185daa84-ce5d-46af-8e62-f7832fff5a92" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/algorithms/dynamicProgramming/TheCoinChangeProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/production/production/Hacker-Rank-Solution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/production/production/Hacker-Rank-Solution/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/production/Hacker-Rank-Solution/algorithms/DayOfTheProgrammer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/production/Hacker-Rank-Solution/algorithms/MigratoryBirds.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/ACMICPCTeam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/ACMICPCTeam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/AbsolutePermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/AbsolutePermutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/AlmostSorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/AlmostSorted.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/AngryProfessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/AngryProfessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/AppendAndDelete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/AppendAndDelete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/BeautifulDaysAtTheMovies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/BeautifulDaysAtTheMovies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/BeautifulTriplets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/BeautifulTriplets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/BetweenTwoSets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/BetweenTwoSets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/BiggerIsGreater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/BiggerIsGreater.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/BomberMan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/BomberMan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/BonAppétit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/BonAppétit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/CatsAndMouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/CatsAndMouse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/CavityMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/CavityMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/ChocolateFeast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/ChocolateFeast.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/CircularArrayRotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/CircularArrayRotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/ClimbingLeaderBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/ClimbingLeaderBoard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/CountingValleys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/CountingValleys.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/CutTheSticks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/CutTheSticks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/DayOfTheProgrammer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/DayOfTheProgrammer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/DesignerPDFViewer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/DesignerPDFViewer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/DrawingBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/DrawingBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/ElectronicsShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/ElectronicsShop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/EmasSupercomputer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/EmasSupercomputer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/Encryption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/Encryption.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/EqualizeTheArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/EqualizeTheArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/ExtraLongFactorials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/ExtraLongFactorials.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/FairRations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/FairRations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/FindDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/FindDigits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/FlatlandSpaceStations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/FlatlandSpaceStations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/FormingMagicSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/FormingMagicSquare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/FriendCircleQueries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/FriendCircleQueries.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/HalloweenSale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/HalloweenSale.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/HappyLadybugs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/HappyLadybugs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/HurdleRace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/HurdleRace.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/JumpingOnTheClouds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/JumpingOnTheClouds.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/JumpingOnTheCloudsRevisited.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/JumpingOnTheCloudsRevisited.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/LarrysArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/LarrysArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/LibraryFine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/LibraryFine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/LisasWorkbook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/LisasWorkbook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/ManasaAndStones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/ManasaAndStones.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/MatrixLayerRotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/MatrixLayerRotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/MigratoryBirds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/MigratoryBirds.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/MinimumDistances.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/MinimumDistances.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/ModifiedKaprekarNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/ModifiedKaprekarNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/NonDivisibleSubset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/NonDivisibleSubset.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/OrganizingContainersOfBalls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/OrganizingContainersOfBalls.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/PickingNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/PickingNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/QueensAttackII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/QueensAttackII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/RepeatedString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/RepeatedString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/SaveThePrisoner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/SaveThePrisoner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/SequenceEquation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/SequenceEquation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/ServiceLane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/ServiceLane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/SherlockAndSquares.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/SherlockAndSquares.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/SockMerchant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/SockMerchant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/StrangeCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/StrangeCounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/TaumAndBday.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/TaumAndBday.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/TheGridSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/TheGridSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/TheTimeInWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/TheTimeInWords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/UtopianTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/UtopianTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/ViralAdvertising.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/ViralAdvertising.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/_3DSurfaceArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/_3DSurfaceArea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/result_for_bigger_is_greater.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/result_for_bigger_is_greater.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/result_for_matrix_rotation.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/result_for_matrix_rotation.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/test_case_for_bigger_is_greater.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/test_case_for_bigger_is_greater.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/test_case_for_matrix_rotation.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/implementaions/test_case_for_matrix_rotation.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +19,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithms/dynamicProgramming/IntervalSelection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
+            <state relative-caret-position="1275">
               <caret line="76" column="35" selection-start-line="76" selection-start-column="35" selection-end-line="76" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -96,16 +28,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithms/dynamicProgramming/StringReduction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="746">
-              <caret line="81" column="27" selection-start-line="81" selection-start-column="27" selection-end-line="81" selection-end-column="27" />
-              <folding>
-                <element signature="e#1879#1880#0" expanded="true" />
-                <element signature="e#2075#2076#0" expanded="true" />
-                <element signature="e#2111#2112#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1513">
+              <caret line="89" column="30" selection-start-line="89" selection-start-column="30" selection-end-line="89" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/algorithms/dynamicProgramming/TheCoinChangeProblem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="109" selection-start-line="109" selection-end-line="109" />
             </state>
           </provider>
         </entry>
@@ -141,7 +77,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/algorithms/AngryProfesor.java" />
         <option value="$PROJECT_DIR$/src/algorithms/AngryProfessor.java" />
         <option value="$PROJECT_DIR$/src/algorithms/BeautifulDaysAtTheMovies.java" />
         <option value="$PROJECT_DIR$/src/algorithms/ViralAdvertising.java" />
@@ -192,6 +127,7 @@
         <option value="$PROJECT_DIR$/src/algorithms/MatrixLayerRotation.java" />
         <option value="$PROJECT_DIR$/src/algorithms/dynamicProgramming/IntervalSelection.java" />
         <option value="$PROJECT_DIR$/src/algorithms/dynamicProgramming/StringReduction.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/dynamicProgramming/TheCoinChangeProblem.java" />
       </list>
     </option>
   </component>
@@ -206,18 +142,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Hacker-Rank-Solution" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Hacker-Rank-Solution" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -258,6 +182,18 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Hacker-Rank-Solution" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Hacker-Rank-Solution" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -294,7 +230,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IntervalSelection">
+  <component name="RunManager" selected="Application.TheCoinChangeProblem">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -303,20 +239,6 @@
     </configuration>
     <configuration name="AlmostSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithms.implementaions.AlmostSorted" />
-      <module name="Hacker-Rank-Solution" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithms.implementaions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EmasSupercomputer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.implementaions.EmasSupercomputer" />
       <module name="Hacker-Rank-Solution" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -343,8 +265,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LarrysArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.LarrysArray" />
+    <configuration name="MatrixLayerRotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.MatrixLayerRotation" />
       <module name="Hacker-Rank-Solution" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -357,13 +279,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatrixLayerRotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.MatrixLayerRotation" />
+    <configuration name="StringReduction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.dynamicProgramming.StringReduction" />
       <module name="Hacker-Rank-Solution" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.implementaions.*" />
+          <option name="PATTERN" value="algorithms.dynamicProgramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TheCoinChangeProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.dynamicProgramming.TheCoinChangeProblem" />
+      <module name="Hacker-Rank-Solution" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms.dynamicProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -403,19 +339,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.EmasSupercomputer" />
-      <item itemvalue="Application.LarrysArray" />
       <item itemvalue="Application.AlmostSorted" />
       <item itemvalue="Application.MatrixLayerRotation" />
       <item itemvalue="Application.IntervalSelection" />
+      <item itemvalue="Application.StringReduction" />
+      <item itemvalue="Application.TheCoinChangeProblem" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TheCoinChangeProblem" />
+        <item itemvalue="Application.StringReduction" />
         <item itemvalue="Application.IntervalSelection" />
         <item itemvalue="Application.MatrixLayerRotation" />
         <item itemvalue="Application.AlmostSorted" />
-        <item itemvalue="Application.LarrysArray" />
-        <item itemvalue="Application.EmasSupercomputer" />
       </list>
     </recent_temporary>
   </component>
@@ -445,7 +381,9 @@
       <workItem from="1554000884829" duration="146064000" />
       <workItem from="1554945627356" duration="13698000" />
       <workItem from="1555222097770" duration="1530000" />
-      <workItem from="1555272869388" duration="4743000" />
+      <workItem from="1555272869388" duration="10363000" />
+      <workItem from="1555565042979" duration="25186000" />
+      <workItem from="1555939727873" duration="599000" />
     </task>
     <task id="LOCAL-00001" summary="Add solutions">
       <created>1550700419211</created>
@@ -608,11 +546,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554957539097</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Add solutions">
+      <created>1555297632951</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1555297632951</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="481056000" />
+    <option name="totallyTimeSpent" value="512461000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -627,7 +572,7 @@
     <frame x="-8" y="-8" width="1696" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14425428" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14792176" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -809,10 +754,16 @@
           <properties />
           <option name="timeStamp" value="62" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/dynamicProgramming/TheCoinChangeProblem.java</url>
+          <line>76</line>
+          <properties />
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/algorithms/implementaions/BeautifulDaysAtTheMovies.java</url>
           <line>47</line>
-          <properties class="algorithms.BeautifulDaysAtTheMovies" method="beautifulDays">
+          <properties class="algorithms.implementaions.BeautifulDaysAtTheMovies" method="beautifulDays">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="15" />
@@ -820,7 +771,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/algorithms/implementaions/_3DSurfaceArea.java</url>
           <line>49</line>
-          <properties class="algorithms._3DSurfaceArea" method="surfaceArea">
+          <properties class="algorithms.implementaions._3DSurfaceArea" method="surfaceArea">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="49" />
@@ -863,26 +814,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/algorithms/implementaions/OrganizingContainersOfBalls.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1751">
-          <caret line="104" column="35" selection-start-line="104" selection-start-column="35" selection-end-line="104" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/implementaions/FriendCircleQueries.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2397">
-          <caret line="143" column="40" selection-start-line="143" selection-start-column="40" selection-end-line="143" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/implementaions/RepeatedString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="619">
@@ -1113,16 +1044,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/dynamicProgramming/IntervalSelection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="76" column="35" selection-start-line="76" selection-start-column="35" selection-end-line="76" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/implementaions/MatrixLayerRotation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1141">
@@ -1264,15 +1185,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/util/function/LongPredicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/dynamicProgramming/IntervalSelection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="76" column="35" selection-start-line="76" selection-start-column="35" selection-end-line="76" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/dynamicProgramming/StringReduction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="746">
-          <caret line="81" column="27" selection-start-line="81" selection-start-column="27" selection-end-line="81" selection-end-column="27" />
-          <folding>
-            <element signature="e#1879#1880#0" expanded="true" />
-            <element signature="e#2075#2076#0" expanded="true" />
-            <element signature="e#2111#2112#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1513">
+          <caret line="89" column="30" selection-start-line="89" selection-start-column="30" selection-end-line="89" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/dynamicProgramming/TheCoinChangeProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="109" selection-start-line="109" selection-end-line="109" />
         </state>
       </provider>
     </entry>
