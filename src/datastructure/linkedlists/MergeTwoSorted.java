@@ -52,5 +52,61 @@ The second linked list is: 3 -> 4 -> NULL
 Hence, the merged linked list is: 1 -> 2 -> 3 -> 3 -> 4 -> NULL
  */
 public class MergeTwoSorted {
+    static SinglyLinkedList.Node mergeLists(SinglyLinkedList.Node head1, SinglyLinkedList.Node head2) {
+        SinglyLinkedList.Node head;
+        SinglyLinkedList.Node temp;
+
+        if (head1 == null || head2 == null)
+            return head1 == null ? head2 : head1;
+
+        if (head1.data < head2.data){
+            temp = head1;
+            head1 = head1.next;
+        }else {
+            temp = head2;
+            head2 = head2.next;
+        }
+
+        head = temp;
+
+        while (head1 != null && head2 != null){
+            if (head1.data < head2.data){
+                temp.next = head1;
+                head1 = head1.next;
+            }else {
+                temp.next = head2;
+                head2 = head2.next;
+            }
+            temp = temp.next;
+        }
+
+        if (head1 != null) temp.next = head1;
+
+        if (head2 != null) temp.next = head2;
+
+        return head;
+    }
+
+    public static void main(String[] args) {
+        SinglyLinkedList list1 = new SinglyLinkedList();
+        SinglyLinkedList list2 = new SinglyLinkedList();
+        int[] arr1 = new int[]{1, 2, 3};
+        int[] arr2 = new int[]{3, 4};
+        for (int value : arr1) {
+            list1.insertNode(value);
+        }
+
+        for (int value : arr2) {
+            list2.insertNode(value);
+        }
+
+        SinglyLinkedList.Node node = mergeLists(list1.head, list2.head);
+
+        while (node != null){
+            System.out.print(node.data);
+            node = node.next;
+        }
+
+    }
 
 }
