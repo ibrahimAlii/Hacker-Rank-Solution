@@ -1,4 +1,4 @@
-package datastructure;
+package datastructure.array;
 
 /**
  * Given a  2D Array, :

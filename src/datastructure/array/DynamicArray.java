@@ -1,4 +1,4 @@
-package datastructure;
+package datastructure.array;
 
 import java.io.IOException;
 import java.util.ArrayList;

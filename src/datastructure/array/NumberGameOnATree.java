@@ -1,4 +1,4 @@
-package datastructure;
+package datastructure.array;
 
 /**
  * Andy and Lily love playing games with numbers and trees. Today they have a tree consisting of  nodes and  edges. Each edge  has an integer weight, .
