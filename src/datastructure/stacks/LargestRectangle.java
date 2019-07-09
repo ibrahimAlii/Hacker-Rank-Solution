@@ -45,60 +45,37 @@ public class LargestRectangle {
 
     // Complete the largestRectangle function below.
     static long largestRectangle(int[] arr) {
-        // Create an empty stack. The stack holds indexes of hist[] array
-        // The bars stored in stack are always in increasing order of their
-        // heights.
         Stack<Integer> s = new Stack<>();
+        int max = 0;
+        int top;
+        int current_area = 0;
         int n = arr.length;
-        int max_area = 0; // Initialize max area
-        int tp;  // To store top of stack
-        int area_with_top; // To store area with top bar as the smallest bar
-
-        // Run through all bars of given histogram
-        int i = 0;
-        while (i < n)
-        {
-            // If this bar is higher than the bar on top stack, push it to stack
+        for (int i = 0; i < n;) {
             if (s.isEmpty() || arr[s.peek()] <= arr[i])
                 s.push(i++);
+            else {
+                top = s.pop();
 
-                // If this bar is lower than top of stack, then calculate area of rectangle
-                // with stack top as the smallest (or minimum height) bar. 'i' is
-                // 'right index' for the top and element before top in stack is 'left index'
-            else
-            {
-                tp = s.peek();  // store the top index
-                s.pop();  // pop the top
+                current_area = arr[top] * (s.isEmpty() ? i : i - s.peek() - 1);
 
-                // Calculate the area with hist[tp] stack as smallest bar
-                area_with_top = arr[tp] * (s.empty() ? i : i - s.peek() - 1);
-
-                // update max area, if needed
-                if (max_area < area_with_top)
-                    max_area = area_with_top;
+                if (current_area > max)
+                    max = current_area;
             }
         }
 
-        // Now pop the remaining bars from stack and calculate area with every
-        // popped bar as the smallest bar
-        while (!s.isEmpty())
-        {
-            tp = s.peek();
-            s.pop();
-            area_with_top = arr[tp] * (s.empty() ? i : i - s.peek() - 1);
+        while (!s.isEmpty()){
+            top = s.pop();
 
-            if (max_area < area_with_top)
-                max_area = area_with_top;
+            current_area = arr[top] * (s.isEmpty() ? n : n - s.peek() - 1);
+
+            if (current_area > max)
+                max = current_area;
         }
 
-        return max_area;
+        return max;
     }
 
     public static void main(String[] args) {
-        System.out.println(largestRectangle(new int[]{1, 2, 3, 4, 5}));
-        System.out.println(largestRectangle(new int[]{3, 2, 3}));
-        System.out.println(largestRectangle(new int[]{1, 3, 5, 9, 11}));
-        System.out.println(largestRectangle(new int[]{6320, 6020, 6098, 1332, 7263, 672, 9472, 2838, 3401, 9494}));
-
+        System.out.println(largestRectangle(new int[]{3 , 2, 3}));
     }
 }
