@@ -19,8 +19,59 @@ class Main {
      */
 
 
-    public static void main(String[] args) {
+    public static int longestWPI(int[] hours) {
+        int max = 0;
+        int tiringDays = 0;
+        int maxTiringDays = 0;
+        int normalDays = 0;
+        int maxNormalDays = 0;
+        int index = 0;
+        int[] arr = new int[hours.length];
+        int[] arr1 = new int[hours.length];
 
+
+        for (int i = 0; i < hours.length; i++) {
+            if (hours[i] > 8) {
+                tiringDays++;
+                if (tiringDays > maxTiringDays)
+                    maxTiringDays = tiringDays;
+            } else if (hours[i] > 0) {
+                normalDays++;
+                if (normalDays > maxNormalDays)
+                    maxNormalDays = normalDays;
+            } else {
+                index++;
+                normalDays = 0;
+                maxNormalDays = 0;
+                maxTiringDays = 0;
+                tiringDays = 0;
+            }
+
+            arr[index] = maxNormalDays;
+            arr1[index] = maxTiringDays;
+
+        }
+
+        for (int i = 0; i < arr.length; i++) {
+            int data = 0;
+            if (arr1[i] > arr[i]) {
+                data = arr[i] + arr1[i];
+            } else if (arr[i] > arr1[i]){
+                data = arr1[i] + arr1[i] - 1;
+            }
+
+            if (data > max)
+                max = data;
+        }
+        return max;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(longestWPI(new int[]{9, 9, 6, 0, 6, 6, 9}));
+        System.out.println(longestWPI(new int[]{6, 6, 6}));
+        System.out.println(longestWPI(new int[]{6, 9, 6}));
+        System.out.println(longestWPI(new int[]{6, 9, 9}));
+        System.out.println(longestWPI(new int[]{10,7,8,7,10}));
     }
 
     //Sample input: abc
