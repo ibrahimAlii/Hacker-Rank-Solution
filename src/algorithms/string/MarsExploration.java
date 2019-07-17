@@ -41,7 +41,7 @@ package algorithms.string;
  *
  * Expected signal: SOSSOSSOSSOS
  * Recieved signal: SOSSPSSQSSOR
- * Difference:          X  X   X
+ * Difference:          x  x   x
  * We print the number of changed letters.
  *
  * Sample Input 1
@@ -56,7 +56,7 @@ package algorithms.string;
  *
  * Expected Signal: SOSSOS
  * Received Signal: SOSSOT
- * Difference:           X
+ * Difference:           x
  * We print the number of changed letters, which is .
  *
  * Sample Input 2

@@ -6,12 +6,12 @@ import java.util.List;
 import java.util.Queue;
 
 /*
-You are given a square grid with some cells open (.) and some blocked (X). Your playing piece can move along any row or column until it reaches the edge of the grid or a blocked cell. Given a grid, a start and an end position, determine the number of moves it will take to get to the end position.
+You are given a square grid with some cells open (.) and some blocked (x). Your playing piece can move along any row or column until it reaches the edge of the grid or a blocked cell. Given a grid, a start and an end position, determine the number of moves it will take to get to the end position.
 
 For example, you are given a grid with sides  described as follows:
 
 ...
-.X.
+.x.
 ...
 Your starting position  so you start in the top left corner. The ending position is . The path is . It takes  moves to get to the goal.
 
@@ -40,8 +40,8 @@ Print an integer denoting the minimum number of steps required to move the castl
 Sample Input
 
 3
-.X.
-.X.
+.x.
+.x.
 ...
 0 0 0 2
 Sample Output
@@ -79,8 +79,8 @@ public class CastleOnTheGrid {
         for (int i = 0; i < grid.length; i++) {
             String s = grid[i];
             for (int j = 0; j < s.length(); j++) {
-                Point point = new Point(i, j, s.charAt(j) == 'X');
-                if (j == 0 || j == s.length() - 1 || i == 0 || i == grid.length - 1 || s.charAt(j) == 'X') {
+                Point point = new Point(i, j, s.charAt(j) == 'x');
+                if (j == 0 || j == s.length() - 1 || i == 0 || i == grid.length - 1 || s.charAt(j) == 'x') {
                     limits.add(point);
                 }
             }
@@ -104,6 +104,6 @@ public class CastleOnTheGrid {
 
 
     public static void main(String[] args) {
-        System.out.println(minimumMoves(new String[]{".X.", ".X.", "..."}, 0, 0, 0, 2));
+        System.out.println(minimumMoves(new String[]{".x.", ".x.", "..."}, 0, 0, 0, 2));
     }
 }
