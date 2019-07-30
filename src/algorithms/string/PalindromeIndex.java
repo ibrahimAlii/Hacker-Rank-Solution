@@ -55,34 +55,23 @@ public class PalindromeIndex {
 
     // Complete the palindromeIndex function below.
     static int palindromeIndex(String s) {
-        int result = -1;
-
-        int nor = 0;
-        int norIndex = -1;
-        int[] index = new int[127];
-        for (int i = 0; i < s.length(); i++) {
-
-            if (s.length() % 2 != 0 && s.length() / 2 == i)
-                continue;
-
-            nor ^= (int) s.charAt(i) - 'a';
-            index[nor] = i;
-
-
-            if (nor < 27 && nor != 0) {
-                norIndex = i;
+        for (int i = 0, j = s.length() - 1; i < j; i++, j--) {
+            if (s.charAt(i) != s.charAt(j)) {
+                if (s.charAt(i + 1) != s.charAt(j))
+                    return j;
+                else if (s.charAt(i) != s.charAt(j - 1))
+                    return i;
+                else {
+                    if (s.charAt(i + 2) != s.charAt(j - 1))
+                        return j;
+                    if (s.charAt(i + 1) != s.charAt(j - 2))
+                        return i;
+                }
             }
-
-
         }
-        int sum = 0;
-        for (int i = 0; i <= 27; i++) {
-            System.out.print(index[i] + ", ");
-            sum += index[i];
-        }
-        System.out.println("\n" + sum);
-        return result;
+        return -1;
     }
+
 
     public static void main(String[] args) {
 
