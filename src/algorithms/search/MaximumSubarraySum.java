@@ -64,6 +64,16 @@ The maximum value for  for any subarray is .
  */
 public class MaximumSubarraySum {
 
+    // [1, 2, 3]
+    /*
+      [1]
+      [2]
+      [3]
+      [1, 2]
+      [2, 3]
+      [1, 2, 3]
+      []
+     */
     static long maximumSum(long[] a, long m) {
         long max = 0;
 

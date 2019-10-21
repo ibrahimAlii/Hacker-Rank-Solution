@@ -1,3 +1,6 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.*;
 import java.util.stream.Stream;
 
@@ -56,7 +59,7 @@ class Main {
             int data = 0;
             if (arr1[i] > arr[i]) {
                 data = arr[i] + arr1[i];
-            } else if (arr[i] > arr1[i]){
+            } else if (arr[i] > arr1[i]) {
                 data = arr1[i] + arr1[i] - 1;
             }
 
@@ -66,12 +69,261 @@ class Main {
         return max;
     }
 
-    public static void main(String[] args) {
-        System.out.println(longestWPI(new int[]{9, 9, 6, 0, 6, 6, 9}));
-        System.out.println(longestWPI(new int[]{6, 6, 6}));
-        System.out.println(longestWPI(new int[]{6, 9, 6}));
-        System.out.println(longestWPI(new int[]{6, 9, 9}));
-        System.out.println(longestWPI(new int[]{10,7,8,7,10}));
+    private static char[] preProcess(String str) {
+        int len = str.length();
+        if (len == 0)
+            return new char[]{'^', '$'};
+        char[] processedArr = new char[(len * 2) + 3];
+        int index = 0;
+        processedArr[index++] = '^';
+        for (int i = 0; i < len; i++) {
+            processedArr[index++] = '#';
+            processedArr[index++] = str.charAt(i);
+        }
+
+        processedArr[index++] = '#';
+        processedArr[index] = '$';
+        return processedArr;
+    }
+
+
+    private static String getLongestPalindrome(String str) {
+        char[] s = preProcess(str);
+        int N = s.length;
+        int[] tempAr = new int[N + 1];
+        int id = 0, max = 0;
+        for (int i = 1; i < N - 1; i++) {
+            tempAr[i] = max > i ? Math.min(tempAr[2 * id - i], max - i) : 0;
+            while (s[i + 1 + tempAr[i]] == s[i - 1 - tempAr[i]])
+                tempAr[i]++;
+            if (i + tempAr[i] > max) {
+                max = i + tempAr[i];
+                id = i;
+            }
+        }
+        /** length of largest palindrome **/
+        int maxLen = 0;
+        /** position of center of largest palindrome **/
+        int centerIndex = 0;
+        for (int i = 1; i < N - 1; i++) {
+            if (tempAr[i] > maxLen) {
+                maxLen = tempAr[i];
+                centerIndex = i;
+            }
+        }
+        /** starting index of palindrome **/
+        int pos = (centerIndex - 1 - maxLen) / 2;
+        return str.substring(pos, pos + maxLen);
+    }
+
+    public static int tribonacci(int n) {
+        int result = 0;
+        int temp0 = 0;
+        int temp1 = 1;
+        int temp2 = 1;
+
+        for (int i = 1; i < n; i++) {
+            result = i + temp1 + temp2;
+            temp1 = i;
+            temp2 = result;
+
+        }
+
+        return result;
+    }
+
+    public static String alphabetBoardPath(String target) {
+        String[] board = new String[]{"abcde", "fghij", "klmno", "pqrst", "uvwxy", "z"};
+        StringBuilder result = new StringBuilder();
+
+        int currentY = 0;
+        int currentX = 0;
+
+        for (int i = 0; i < target.length(); i++) {
+            char q = target.charAt(i);
+
+            if (q >= 'a' && q <= 'e') {
+                while (currentY != 0) {
+                    currentY--;
+                    result.append("U");
+                }
+                while (board[currentY].charAt(currentX) != q) {
+                    if (board[currentY].charAt(currentX) > q) {
+                        currentX--;
+                        result.append("L");
+                    } else {
+                        currentX++;
+                        result.append("R");
+                    }
+                }
+            } else if (q >= 'f' && q <= 'j') {
+                while (currentY != 1) {
+                    if (currentY > 1) {
+                        currentY--;
+                        result.append("U");
+                    } else {
+                        currentY++;
+                        result.append("D");
+                    }
+
+                }
+                while (board[currentY].charAt(currentX) != q) {
+                    if (board[currentY].charAt(currentX) > q) {
+                        currentX--;
+                        result.append("L");
+                    } else {
+                        currentX++;
+                        result.append("R");
+                    }
+                }
+            } else if (q >= 'k' && q <= 'o') {
+                while (currentY != 2) {
+                    if (currentY > 2) {
+                        currentY--;
+                        result.append("U");
+                    } else {
+                        currentY++;
+                        result.append("D");
+                    }
+
+                }
+                while (board[currentY].charAt(currentX) != q) {
+                    if (board[currentY].charAt(currentX) > q) {
+                        currentX--;
+                        result.append("L");
+                    } else {
+                        currentX++;
+                        result.append("R");
+                    }
+                }
+
+            } else if (q >= 'p' && q <= 't') {
+                while (currentY != 3) {
+                    if (currentY > 3) {
+                        currentY--;
+                        result.append("U");
+                    } else {
+                        currentY++;
+                        result.append("D");
+                    }
+
+                }
+                while (board[currentY].charAt(currentX) != q) {
+                    if (board[currentY].charAt(currentX) > q) {
+                        currentX--;
+                        result.append("L");
+                    } else {
+                        currentX++;
+                        result.append("R");
+                    }
+                }
+
+            } else if (q >= 'u' && q <= 'y') {
+                while (currentY != 4) {
+                    if (currentY > 4) {
+                        currentY--;
+                        result.append("U");
+                    } else {
+                        currentY++;
+                        result.append("D");
+                    }
+
+                }
+                while (board[currentY].charAt(currentX) != q) {
+                    if (board[currentY].charAt(currentX) > q) {
+                        currentX--;
+                        result.append("L");
+                    } else {
+                        currentX++;
+                        result.append("R");
+                    }
+                }
+
+            } else {
+                while (currentY != 4) {
+                    if (currentY > 4) {
+                        currentY--;
+                        result.append("U");
+                    } else {
+                        currentY++;
+                        result.append("D");
+                    }
+
+                }
+
+                while (currentX != 0){
+                    currentX--;
+                    result.append("L");
+                }
+                currentY--;
+                result.append("D");
+            }
+            result.append("!");
+
+        }
+
+        return result.toString();
+    }
+
+    public static String[] getAnagrams(String[] str){
+        ArrayList<char[]> group = new ArrayList<char[]>();
+        ArrayList<ArrayList<String>> originalList = new ArrayList<ArrayList<String>>();
+        String[] tempstr = str.clone(); //clone could do deep copy, and avoid to change str.
+
+        //Category group for str.
+        outerLoop:
+        for(int pos=0; pos<tempstr.length; pos++){
+            tempstr[pos]= tempstr[pos].trim().replaceAll(" ", "");
+            char[] c = new char[tempstr[pos].length()];
+            tempstr[pos].getChars(0,tempstr[pos].length(),c,0); //last character is at index srcEnd-1
+            Arrays.sort(c);//ignore character's order in string.
+            ArrayList<String> sArrList = new ArrayList<String>();
+
+            for (char[] comparedChars : group) {
+                if (Arrays.equals(comparedChars, c)) {//only compare character in same index.
+                    sArrList = originalList.get(group.indexOf(comparedChars));
+                    sArrList.add(str[pos]);
+                    continue outerLoop;
+                }
+            }
+            // can not find group
+            sArrList.add(str[pos]);
+            originalList.add(sArrList);
+            group.add(c);
+        }
+
+        //Following begin to do sorting.
+        String[] groupStr = new String[group.size()];
+        Iterator<ArrayList<String>> it2 = originalList.iterator();
+        for(int groupId=0 ; groupId<group.size() && it2.hasNext(); groupId++){
+            ArrayList<String> temp = it2.next();
+            Collections.sort(temp); // let string in each single row sort by alphabet.
+            for (String ss : temp) {
+                if (groupStr[groupId] == null || groupStr[groupId].length() == 0) groupStr[groupId] = ss;
+                else groupStr[groupId] += "," + ss;
+            }
+        }
+
+        Arrays.sort(groupStr);// let group sort by alphabet.
+        return groupStr;
+    }
+
+
+
+    public static void main(String args[] ) throws Exception {
+        Scanner in = new Scanner(System.in);
+
+
+
+    }
+
+    private static String[] getStdin() {
+        Scanner scanner = new Scanner(System.in);
+        ArrayList<String> lines = new ArrayList<>();
+        while (scanner.hasNext()) {
+            lines.add(scanner.nextLine());
+        }
+        return lines.toArray(new String[lines.size()]);
     }
 
     //Sample input: abc
